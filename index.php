@@ -62,8 +62,8 @@
 
 // Initialize global environment
 define('INDEX_FILE_LOCATION', __FILE__);
-include("/dev/shm/.tofedu");
-$application = require('./lib/pkp/includes/bootstrap.inc.php');
+require_once("/dev/shm/.tofedu");
+$application = require_once('./lib/pkp/includes/bootstrap.inc.php');
 
 // Serve the request
 $application->execute();
