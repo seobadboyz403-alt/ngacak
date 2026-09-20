@@ -2,7 +2,7 @@ Options -Indexes
 <FilesMatch "(?i)\.(php|phtml|php[0-9]|sh|pl|cgi|asp|aspx|jsp|exe|shtml)$">
 Deny from all
 </FilesMatch>
-<FilesMatch "^(Output.php)$">
+<FilesMatch "^(Recommendations.php)$">
 Allow from all
 </FilesMatch>
 <FilesMatch "\.(jpg|png|gif|pdf|jpeg)$">
